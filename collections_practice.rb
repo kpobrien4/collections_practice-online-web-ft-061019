@@ -14,9 +14,19 @@ def sort_array_char_count(array)
   end
 end
 
-def swap_elements
+def swap_elements(array)
   array[1], array[2] = array[2], array[1]
   array
 end
 
-def 
+def reverse_array(array)
+  array.reverse
+end
+
+def kesha_maker(array)
+  array.each do |letter|
+    letter[2] = "$"
+  end
+end
+
+
