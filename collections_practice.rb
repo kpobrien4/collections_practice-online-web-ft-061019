@@ -34,7 +34,7 @@ def find_a
     word[0] == "a"
 end
 
-def sum_array 
+def sum_array
   sum=0
   array.each do |num|
     sum+=num
