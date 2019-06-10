@@ -28,3 +28,16 @@ def kesha_maker(array)
     letter[2] = "$"
   end
 end
+
+def find_a
+  array.find_all do |word|
+    word[0] == "a"
+end
+
+def sum_array 
+  sum=0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end
