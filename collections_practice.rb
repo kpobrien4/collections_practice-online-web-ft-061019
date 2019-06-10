@@ -28,5 +28,3 @@ def kesha_maker(array)
     letter[2] = "$"
   end
 end
-
-
